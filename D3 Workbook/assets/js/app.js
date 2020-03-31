@@ -80,7 +80,7 @@ var svg = d3
         .text("Lacks Health Insurance(%)");
 
         chartGroup.append("text")
-        .attr("transform", `translate(${width - 310}, ${height + margin.top + 20})`)
+        .attr("transform", `translate(${width - 510}, ${height + margin.top + 20})`)
         .attr("class", "axisText")
         .text("In Poverty(%)");
 
